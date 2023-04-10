@@ -10,17 +10,17 @@ CONFIG += c++17
 
 # Tell direct in .pro where to build
 
-Release:DESTDIR = build/release
-Release:OBJECTS_DIR = build/release/.obj
-Release:MOC_DIR = build/release/.moc
-Release:RCC_DIR = build/release/.rcc
-Release:UI_DIR = build/release/.ui
+release:DESTDIR = build/release
+release:OBJECTS_DIR = build/release/.obj
+release:MOC_DIR = build/release/.moc
+release:RCC_DIR = build/release/.rcc
+release:UI_DIR = build/release/.ui
 
-Debug:DESTDIR = build/debug
-Debug:OBJECTS_DIR = build/debug/.obj
-Debug:MOC_DIR = build/debug/.moc
-Debug:RCC_DIR = build/debug/.rcc
-Debug:UI_DIR = build/debug/.ui
+debug:DESTDIR = build/debug
+debug:OBJECTS_DIR = build/debug/.obj
+debug:MOC_DIR = build/debug/.moc
+debug:RCC_DIR = build/debug/.rcc
+debug:UI_DIR = build/debug/.ui
 
 # Include other .pri files here:
 include(box2d/include.pri)

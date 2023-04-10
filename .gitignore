@@ -2,3 +2,5 @@ build
 *.user
 compile_flags.txt
 *.sh
+Makefile
+.qmake.stash
