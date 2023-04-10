@@ -1,5 +1,4 @@
-LIBS += -L/bin/ -lbox2d
+LIBS += -L$$PWD/bin/ -lbox2d
+INCLUDEPATH += $$PWD/include
 
-INCLUDEPATH += include
-
-# specific OS can be specified with win32:, unix:, etc
+# specific OS can be specified with win32:, unix:, etc for linking against OS specific libs

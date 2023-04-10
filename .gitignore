@@ -1,8 +1,2 @@
 build
 *.user
-*.o
-box2d_demo
-moc_*
-.qmake.stash
-ui_*
-Makefile
